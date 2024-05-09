@@ -20,12 +20,12 @@ return {
 
     -- Add your own debuggers here
     'leoluz/nvim-dap-go',
-    'simrat39/rust-tools.nvim'
+    'simrat39/rust-tools.nvim',
+    'nvim-neotest/nvim-nio',
   },
   config = function()
     local dap = require 'dap'
     local dapui = require 'dapui'
-
     require('mason-nvim-dap').setup {
       -- Makes a best effort to setup the various debuggers with
       -- reasonable debug configurations
