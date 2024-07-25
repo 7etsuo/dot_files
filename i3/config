@@ -182,7 +182,7 @@ exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,s
 exec --no-startup-id picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec_always --no-startup-id feh --bg-fill ~/.config/i3/bg/gruvbox_wallpaper.png
+exec_always --no-startup-id feh --bg-fill ~/.config/i3/bg/cyber_girl.png
 
 # Screen configuration for Samsung G9 ultrawide
 exec --no-startup-id xrandr --output DP-4 --mode 3840x1080 --rate 240
@@ -195,3 +195,4 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Clipboard paste
 bindsym $mod+Shift+v exec --no-startup-id xclip -selection clipboard -o | xdotool type --clearmodifiers --file -
+

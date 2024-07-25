@@ -24,7 +24,7 @@ history = 10000
 multiplier = 3
 
 [font]
-size = 12.0
+size = 14.0
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
@@ -95,9 +95,4 @@ bindings = [
 { key = "PageDown", mods = "Shift",         action = "ScrollPageDown"   },
 { key = "Home",     mods = "Shift",         action = "ScrollToTop"      },
 { key = "End",      mods = "Shift",         action = "ScrollToBottom"   },
-    #    { key = "N",        mods = "Control|Shift", action = "SpawnNewInstance" },
-    #    { key = "F",        mods = "Control|Shift", action = "SearchForward"    },
-    #    { key = "B",        mods = "Control|Shift", action = "SearchBackward"   },
-    #    { key = "C",        mods = "Control|Shift", action = "ClearSelection"   },
-    #    { key = "V",        mods = "Control|Shift", action = "ToggleViMode"     }
 ]
